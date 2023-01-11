@@ -1,0 +1,73 @@
+.section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.contentContainer{
+    backdrop-filter: blur(8px);
+    width: 50px;
+}
+
+
+
+.backgroundGreen{
+    background-color: green;
+}
+.backgroundGrey{
+    background-color: rgb(71, 71, 71);
+}
+.backgroundYellow{
+    background-color: yellow;
+}
+
+.navbarChanges{
+    border-radius: 40px;
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.877) !important;
+
+
+}
+
+#heroContent{
+    position: absolute;
+    top: 33%;
+    z-index: 2;
+    width: 100vw;
+    text-align: center;
+
+}
+
+#heroText{
+    font-size: 150px;
+    text-align: center;
+    
+}
+
+#heroSub{
+    font-size: 60px;
+    letter-spacing: 2.7px;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 8px #000000;
+
+}
+
+.customButton{
+    font-size: 40px;
+    color: white;
+
+}
+
+
+/* .checkBG{
+    background: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)), url(./assets/quizBG.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+} */
