@@ -1,6 +1,7 @@
 .section{
     width: 100vw;
     height: 100vh;
+    border: #000000 solid 3px;
 }
 .sectionTitle{
     text-transform: uppercase;
@@ -70,6 +71,15 @@
 .customButton:hover{
     background-color: rgba(70, 68, 68, 0.678);
 }
+
+
+.fullwidth{
+    width: 100%;
+}
+.fullheight{
+    height: 100%;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -80,7 +90,22 @@ html, body {
     color: white;
 }
 
-.bg-grey{
-    background-color: #464f54;
+#works-bg{
+    background-image: url(./assets/10.jpg);
 }
+#quiz-bg{
+    background-image: url(./assets/quizBG.jpg);
+}
+#about-bg{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.808)), url(./assets/9.jpg) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+#contact-bg{
+    background-image: url(./assets/4.jpg);
+}
+
 

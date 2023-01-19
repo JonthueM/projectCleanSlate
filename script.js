@@ -4,4 +4,4 @@ var scrollSpy = new bootstrap.ScrollSpy(document.body, {
     target: '#navbar-example'
   });
 
-  
+  $('html').css('overflow', 'hidden');
