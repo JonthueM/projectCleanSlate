@@ -34,9 +34,11 @@
     width: 95%;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.877) !important;
+    background-color: rgba(32, 33, 35, 0.877) !important;
+}
 
-
+.nav-link{
+    color: white;
 }
 
 #heroContent{
@@ -96,15 +98,19 @@ html, body {
 
 #works-bg{
     background-image: url(./assets/10.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
 }
 #quiz-bg{
     background-image: url(./assets/quizBG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 #about-bg{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.911)), url(./assets/9.jpg) !important;
+    background: linear-gradient(0deg, rgba(26, 21, 21, 0.89), rgba(21, 20, 20, 0.911)), url(./assets/9.jpg) !important;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
 }
